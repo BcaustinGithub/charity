@@ -7,18 +7,16 @@ html {
 
 .button {
   font-size: 50px;
-  color: rgb(0, 0, 0);
-  background-color: rgba(63, 62, 62, 0.502);
-  border-color: rgb(175, 163, 163);
+  background-color: rgb(150, 150, 150);
+  border-color: rgb(65, 41, 41);
   margin: 1em;
   margin-top: 3.75em;
-  border-color: rgb(48, 47, 47);
-  border-width: 7px;
+  border: 0;
 }
 
 .buttonstyle {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .content p {

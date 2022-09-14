@@ -1,15 +1,51 @@
 html {
-  background-color: rgb(122, 122, 122);
-}
-
-.header {
-  background-color: black;
-  width: 100px;
-  height: 100px;
+  background-color: rgb(116, 116, 116);
 }
 
 body {
-  background-color: rgb(201, 201, 201);
-  margin-left: 60px;
-  margin-right: 30em;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.navbar {
+  background-color: rgb(49, 49, 49);
+  text-decoration: none;
+  width: 100%;
+  position: absolute;
+  height: 15%;
+  box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, 0.5);
+  color: black;
+}
+.navbar a {
+  color: white;
+  font-size: 3em;
+  margin-left: 1em;
+  text-decoration: none;
+}
+.bodytext {
+  padding: 0em;
+  height: 120%;
+  font-size: 2em;
+}
+
+.container1 {
+  margin: 0px;
+  display: flex;
+  font-size: 1em;
+  padding: 0;
+}
+
+li {
+  padding: 1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.firstimage {
+  height: 40%;
+  width: auto;
+  float: inline-end;
+  margin-right: 1em;
+  padding: 1em;
 }

@@ -1,0 +1,54 @@
+html {
+  background-color: rgb(96, 96, 96);
+}
+body {
+  margin: 0;
+}
+nav {
+  background-color: rgb(46, 46, 46);
+  width: 100%;
+  height: 13%;
+  position: absolute;
+  z-index: 9999999999;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 3em;
+  font-weight: 800;
+  margin-left: 1em;
+}
+
+.imagewtxt h1 {
+  margin: 0;
+  padding: 4em;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3em;
+  opacity: 90%;
+  color: white;
+  background-image: url(../images/Penguin.jpg.jpg);
+  background-size: cover;
+  text-shadow: rgba(45, 45, 45, 0.5) 0px 20px 20px;
+  box-shadow: rgba(161, 161, 161, 0.5) 0px 20px 20px;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3em;
+  justify-content: space-evenly;
+}
+button {
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: white;
+  color: rgba(45, 45, 45);
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.abutton {
+  color: black;
+  text-decoration: none;
+}
